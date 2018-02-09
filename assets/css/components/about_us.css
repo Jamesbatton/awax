@@ -1,0 +1,27 @@
+.about {
+    box-sizing: border-box;
+    min-height: 535px;
+    padding-bottom: 15px;
+}
+
+.about__video_shadow {
+    box-shadow: -10px 10px 40px rgba(174,172,174,1);
+}
+
+
+ /*-------icon callUS setting--------*/
+
+
+.help__icon_callUs-bg {
+    background: url(../../img/icons/sprites.png) -378px 10px no-repeat #b88b58;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top: -172px;
+    right: -15px;
+}
+
+.help__icon_callUs-bg:hover {
+    background-color: #df7002;
+    box-shadow: 0 5px 20px rgb(136, 136, 136);
+}

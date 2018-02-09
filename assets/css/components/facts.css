@@ -1,0 +1,34 @@
+.facts{
+    min-height: 410px;
+    background-color: #000000;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+}
+
+.facts__content{
+    min-height: 230px;
+    padding: 30px;
+}
+
+.facts__working-type_title-wrapper{
+    min-height: 125px;
+    padding: 0 50px;
+}
+
+.facts__working-type_amount {
+    font-size: 40px;
+}
+
+.facts__working-type_spr {
+    margin-top: -20px;
+    font-size: 30px;
+}
+
+.facts__working-type_name {
+    line-height: 1.2em;
+}
+
+.facts__working-type_descrpt {
+    font-size: 12px;
+    max-width: 180px;
+}

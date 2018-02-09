@@ -1,0 +1,44 @@
+.services {
+    min-height: 415px;
+    box-sizing: border-box;
+    padding-bottom: 20px;
+    background-color: #000000;
+}
+
+.services__content-padding {
+    padding-top: 15px;
+}
+
+.services__content-item-padding {
+    padding-top: 35px;
+}
+
+.services__content-item_border {
+    border-left: 1px solid #656565;
+    border-right: 1px solid #656565;
+}
+
+.services__content-item_border-left {
+    border-left: 1px solid #656565;
+}
+
+.services__content-item_size {
+    width: 64px;
+    height: 64px;
+}
+
+.services__content-item_quality {
+    background: url("../../img/icons/sprites.png") -69px 0 no-repeat;
+}
+
+.services__content-item_star {
+    background: url("../../img/icons/sprites.png") -192px -172px no-repeat;
+}
+
+.services__content-item_clock {
+    background: url("../../img/icons/sprites.png") 0 0 no-repeat;
+}
+
+.services__content-item_support {
+    background: url("../../img/icons/sprites.png") -207px 0 no-repeat;
+}

@@ -1,0 +1,81 @@
+.header-section {
+   max-height: 850px;
+}
+
+/*---------NAVIGATE---------*/
+
+
+.header-section__nav >.navbar-inverse {
+    background-color: #000000;
+    border: none;
+}
+
+.header-section__nav > .navbar-inverse .navbar-nav > li > a {
+    color: #ffffff;
+}
+
+.header-section .nav > li.active-item > a:hover:before,
+.header-section .nav > li.active-item > a:focus:before {
+    position: absolute;
+    content: "";
+    background: none;
+    border-bottom: 5px solid #b88b58;
+    width: 100%;
+    bottom: -20px;
+    right: 0;
+}
+
+
+/*--------CONTENT---------*/
+
+.font__header-title_main {
+    font-size: 50px;
+}
+
+.font__header-title_dubl {
+    letter-spacing: .1em;
+}
+
+.header-section__content_bg {
+    background: url("../../img/bg/hero-bunner.png") center top/cover no-repeat fixed;
+
+}
+
+.header-section__content_bg2 {
+    background: url("../../img/bg/hero-bunner-2.png") center top/cover no-repeat fixed;
+}
+
+.header-section__content_bg3 {
+    background: url("../../img/bg/hero-bunner-3.png") center top/cover no-repeat fixed #000000;
+}
+
+.header-slide-wrapper {
+    height: 850px;
+}
+
+.header-section__content_wrapper {
+    top: 300px;
+    height: 300px;
+    width: 100%;
+    z-index: 4;
+}
+
+.header-section__content_block-align {
+    align-items: center;
+    justify-content: start;
+}
+
+.header-title-mgn {
+    margin-top: -20px;
+}
+
+.logo {
+    background: url("../../img/icons/sprites.png") -132px 0 no-repeat;
+    height: 60px;
+    width: 60px;
+}
+
+.navbar {
+    font-size: 12px;
+    padding: 15px 0 10px 0;
+}

@@ -1,0 +1,451 @@
+/*
+ Table Of Contents
+ 1.) Media Query for Handheld Devices
+ 2.) Media Query for Tablet
+ 3.) Media Query for mobile
+ ===============================================*/
+/*
+ 1.) Media Query for Handheld Devices
+ ===============================*/
+@media only screen and (min-width:992px) and (max-width : 1199px) {
+
+    /* main */
+
+    .help__icon_callUs-bg {
+        right: 10px;
+    }
+
+    /* header */
+
+    .header-section .nav > li > a {
+        font-size: 12px;
+        padding: 12px 4px;
+        transition: .3s;
+    }
+
+    .header-section .nav > li {
+        margin-left: 0;
+    }
+    .header-section .nav > li > a {
+        padding: 10px;
+
+    }
+    .header-slide-wrapper {
+        height: 650px;
+    }
+
+    .header-section__content_wrapper {
+        top: 230px;
+    }
+
+    /* services */
+
+    .services__content-item_border-left {
+        border-left: none;
+    }
+
+    .services__content-item_border {
+        border-right: none;
+    }
+
+    /* contacts */
+
+    .contact__details_wrapper{
+        left: 70px;
+        transition: .5s;
+    }
+
+    /* footer */
+
+    .help__icon_scrollUp-bg {
+        left: 20px;
+        top: -600px;
+    }
+    .footer__logo_wrapper{
+        margin-left: 20px;
+    }
+}
+
+/*
+ 2.) Media Query for Tablet
+ ===============================*/
+@media only screen and (min-width : 769px) and (max-width : 991px) {
+
+    /* main */
+
+    .btn-stand_margin-top {
+        margin-top: 20px;
+    }
+
+    .help__icon_callUs-bg {
+        right: 10px;
+    }
+
+    /* header */
+
+    .header-section .nav > li > a {
+        font-size: 10px;
+        padding: 12px 4px;
+        transition: .3s;
+    }
+    .header-section .nav > li {
+        margin-left: 1px;
+    }
+    .header-slide-wrapper {
+        height: 550px;
+    }
+    .header-section__content_wrapper {
+        top: 195px;
+    }
+
+    /* about */
+
+    .about .btn-stand_margin-top {
+        margin-top: 10px;
+    }
+    .font__sections-title_main {
+        font-size: 20px;
+    }
+    .font__sections-title-dubl_main {
+        font-size: 10px;
+    }
+
+    .sections-title {
+        height: 120px;
+        padding-top: 15px;
+    }
+
+    /* services */
+
+    .services__content-item_border-left {
+        border-left: none;
+    }
+
+    .services__content-item_border {
+        border-right: none;
+    }
+
+    /* projects */
+
+    .services__checkbox_btn {
+        padding: 10px;
+    }
+
+    .checkbox__btn-set_all {
+        margin-left:25px;
+    }
+
+    .services__checkbox_btn-other-wrapper {
+        margin-right: 25px;
+    }
+
+    /* facts */
+
+    .facts__working-type_title-wrapper{
+        padding: 0 70px;
+    }
+
+    /* prices */
+
+    .pricing-features__item {
+        margin-left: 90px;
+    }
+
+    .pricing-features__item:before {
+        left: 50px;
+    }
+
+    .pricing-features__slider_wrapper > .carousel-indicators {
+        bottom: -25px;
+    }
+
+    /* contacts */
+
+    .contact__details_wrapper{
+        display: none
+    }
+    .contact__details_place-marker {
+        display: none;
+    }
+
+    /* footer */
+
+    .footer__social_wrapper {
+        margin: 15px auto;
+    }
+
+    .center-block__footer {
+        margin: auto;
+    }
+
+    .help__icon_scrollUp-bg {
+        left: 30px;
+        top: -60px;
+    }
+
+}
+
+/*
+ 3.) Media Query for mobile
+ ===============================*/
+@media only screen and (max-width : 768px){
+
+    /*main */
+
+    .btn-stand_margin-top {
+        margin-top: 20px;
+    }
+
+    .help__icon_callUs-bg {
+        top: -210px;
+        right: 60px;
+        zoom: .8;
+    }
+
+    /*header */
+
+    .header-section .nav > li > a {
+        font-size: 10px;
+        padding: 12px 4px;
+        transition: .3s;
+    }
+
+    .header-section .nav > li {
+        margin-left: 1px;
+    }
+
+    .header-slide-wrapper {
+        height: 450px;
+    }
+    .header-section__content_wrapper {
+        top: 160px;
+    }
+
+
+    .font__header-title_main {
+        font-size: 42px;
+    }
+
+    .font__header-title_dubl {
+        font-size: 12px;
+    }
+
+    .header-section .nav > li.active-item > a:hover:before,
+    .header-section .nav > li.active-item > a:focus:before {
+        display: none;
+    }
+
+    /* about */
+
+    .sections-title {
+        height: 100px;
+        padding-top: 10px;
+    }
+    .font__sections-title_main {
+        font-size: 15px;
+    }
+    .font__sections-title-dubl_main {
+        font-size: 7px;
+    }
+
+    .centred-block {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .about__content_text {
+        margin-top: 15px;
+    }
+
+    /* services */
+
+    .services__content-item_border-left {
+        border-left: none;
+    }
+
+    .services__content-item_border {
+        border-left: none;
+        border-right: none;
+    }
+
+    /* projects */
+
+    .services__checkbox{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    .services__checkbox_btn{
+        padding: 10px;
+        font-size: 11px;
+    }
+
+    .checkbox__btn-set_all {
+        margin-left:20px;
+    }
+
+    .services__checkbox_btn-other-wrapper {
+        margin-right: 30px;
+    }
+
+    /* facts */
+
+    .facts__working-type_title-wrapper{
+        min-height: 105px;
+    }
+
+    .facts__working-type_descrpt {
+        max-width: 380px;
+    }
+
+    /* prices */
+
+    .pricing-features__items {
+        margin-left: 20px;
+    }
+
+    .pricing-features__item:before {
+        left: -40px;
+    }
+
+    .pricing-features__slider_wrapper > .carousel-indicators {
+        bottom: -25px;
+    }
+
+    /* contacts */
+
+    .contact__details_wrapper{
+        display: none
+    }
+    .contact__details_place-marker {
+        display: none;
+    }
+
+    .tell-about__title_container,
+    .tell-about__icon {
+        margin-bottom: 15px;
+    }
+
+    .tell-about__social_counter {
+        width: 35px;
+    }
+
+    /* footer */
+
+    .center-block__footer {
+        margin: auto;
+    }
+
+    .footer__social_wrapper {
+        margin: 15px auto;
+    }
+
+    .help__icon_scrollUp-bg{
+        left: 40px;
+        top: -60px;
+    }
+
+}
+/*
+4.) Media Query for mobile Nexus 6P
+===============================*/
+@media only screen and (max-width :436px) {
+
+    /*main */
+
+    .help__icon_callUs-bg {
+        position: fixed;
+        top: 30px;
+        right: 140px;
+        zoom: .7;
+        z-index: 1050;
+    }
+
+    /*header */
+
+    .font__header-title_main {
+        font-size: 35px;
+    }
+
+    .header-title-margin {
+        margin-top: -10px;
+    }
+
+    /* projects */
+
+    .services__checkbox_btn-wrapper {
+        border: none;
+    }
+
+    .checkbox__btn-set_all,
+    .checkbox__btn-set_photo,
+    .checkbox__btn-set_brand,
+    .checkbox__btn-set_dev {
+        border-right: 1px solid #cfcfcf;
+    }
+
+    /* footer */
+
+    .help__icon_scrollUp-bg {
+        top: -80px;
+        zoom: 0.7;
+    }
+
+}
+
+/*
+ 5.) Media Query for mobile
+ ===============================*/
+@media only screen and (max-width :359px){
+
+    /*main */
+
+    .help__icon_callUs-bg {
+        top: 40px;
+    }
+
+    /*header */
+
+    .navbar-toggle {
+        position: absolute;
+        top: -47px;
+        right: -15px;
+    }
+    .font__header-title-main {
+        font-size: 30px;
+    }
+
+    .header-title-margin {
+        margin-top: -10px;
+    }
+
+    /* projects */
+
+    .services__checkbox_btn-wrapper {
+        border: none;
+    }
+
+    .checkbox__btn-set_brand{
+        border: none;
+    }
+
+    .checkbox__btn-set_advert {
+        border-right: 1px solid #cfcfcf;
+    }
+
+    /* contacts */
+
+    .tell-about__social_counter {
+        width: 25px;
+    }
+
+}
+
+
+
+
+
+
+
+

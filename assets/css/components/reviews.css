@@ -1,0 +1,107 @@
+.reviews {
+    position: relative;
+    min-height: 660px;
+    box-sizing: border-box;
+}
+
+.client-reviews__slider-wrapper {
+    position: relative;
+    min-height: 510px;
+    padding-top: 10px;
+}
+
+.reviews__slider_size {
+    min-height: 510px;
+}
+
+.reviews__txt_wrapper{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 730px;
+    padding-top: 20px;
+}
+
+.reviews__client_img {
+    display: block;
+    max-width: 190px;
+    max-height: 190px;
+    border-radius: 190px;
+    background: radial-gradient(circle farthest-corner at 50% 0, #fff, #d7d7d7);
+}
+
+.reviews__client_img:hover {
+    background: linear-gradient(45deg, #f1bb69,#d7d7d7);
+    box-shadow: 0 10px 20px rgb(123, 123, 123);
+    transition: .4s;
+}
+
+.reviews__client_name {
+    font-size: 20px;
+    color: #000000;
+}
+
+.reviews__client_post {
+    color: #000000;
+}
+
+.reviews-qoute {
+    background: url("../../img/icons/social-sprites.png") 0 0 no-repeat;
+    width: 27px;
+    height: 20px;
+    margin: 30px auto 15px auto;
+}
+
+/* CLIENT LOGOS
+===============================*/
+
+.clients-logos {
+    position: relative;
+    min-height: 160px;
+    border-top: 2px solid #cfcfcf;
+    border-bottom: 2px solid #cfcfcf;
+    padding: 60px 0;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.clients-logos_sprite {
+    background: url(../../img/icons/sprites.png) no-repeat;
+}
+
+.clients-logos_graphic{
+    background-position: -275px 0;
+    width: 93px;
+    height: 62px;
+}
+.clients-logos_uniwue{
+    background-position: 0 -86px ;
+    width: 88px;
+    height: 62px;
+}
+
+.clients-logos_fair{
+    background-position: -113px -87px ;
+    width: 118px;
+    height: 62px;
+}
+
+.clients-logos_unique2{
+    background-position: -249px -85px ;
+    width: 100px;
+    height: 62px;
+}
+
+.clients-logos_coffee{
+    background-position: 0 -179px ;
+    width: 101px;
+    height: 62px;
+}
+
+.clients-logos_museum{
+    background-position: -362px -87px ;
+    width: 110px;
+    height: 62px;
+}

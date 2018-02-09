@@ -1,0 +1,135 @@
+.prices {
+    min-height: 1315px;
+    padding-bottom: 15px;
+}
+
+/* ---- PRICING-TABLE ---- */
+
+.btn__prices {
+    background-color: #373737;
+    outline: 0;
+    padding: 10px 20px;
+}
+
+.btn__prices:hover,
+.btn__prices:focus{
+    background-color: #b88b58;
+}
+
+.offers__price-term_font {
+    font-size: 11px;
+}
+
+.pricing-table {
+    background-color: #ededed;
+    min-height: 560px;
+}
+
+.pricing-table__offers_wrapper {
+    min-height: 420px;
+    padding: 15px 0;
+}
+
+.pricing-table__offers-item_bg {
+    background-color: #fff;
+    margin: 15px auto;
+    min-height: 345px;
+    width: 100%;
+}
+
+.pricing-table__offers-item_bg:hover {
+    background-color: #feffb4;
+    box-shadow: 0 0 40px rgb(117, 115, 117);
+}
+
+.pricing-table__offers-item-content-wrapper {
+    justify-content: space-between;
+    align-items: center;
+    min-height: 270px;
+    padding: 20px;
+}
+
+.pricing-table__offers_type{
+    color: #242424;
+    font-weight: 600;
+}
+
+.pricing-table__offers-item_bg:hover .pricing-table__offers_type {
+    font-size: 20px;
+    transition: .4s;
+}
+
+.pricing-table__offers_price {
+    color: #242424;
+    font-size: 28px;
+}
+
+.pricing-table__offers-item_bg:hover .pricing-table__offers_price {
+    color: #2ba700;
+    font-size: 35px;
+    transition: .4s;
+}
+
+.pricing-table__offers_conditions {
+    font-size: 10px;
+    font-weight: 600;
+    list-style: none inside;
+    padding-top: 15px;
+}
+
+/* ----PRICING-FEATURES-----*/
+
+.features__item-inside-list {
+    list-style: none;
+    margin-left: 5px;
+}
+
+.features__item-inside-list_item:before {
+    content:  "—";
+    left: -5px;
+    position: relative;
+}
+
+.pricing-features__content_wrapper {
+    border-bottom: 1px solid #d8d8d8;
+    min-height: 420px;
+    padding: 20px;
+}
+
+.pricing-features__items {
+    list-style: none;
+    margin: 50px 0 0 40px;
+    height: 100%;
+    width: 100%;
+}
+
+.pricing-features__item{
+    margin-top: 25px;
+}
+
+.pricing-features__item:before {
+    content:  url(../../img/icons/check.png);
+    left: -50px;
+    position: absolute;
+}
+
+.pricing-features__item_title {
+    color: #242424;
+    font-size: 18px;
+}
+
+.pricing-features__content-img {
+    height: 100%;
+    width: 100%;
+}
+
+.pricing-features__slider_wrapper {
+    min-height: 475px;
+    padding: 10px;
+}
+
+.pricing-features__slider_wrapper > .carousel-indicators {
+    bottom: -40px;
+}
+
+

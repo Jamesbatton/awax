@@ -1,0 +1,194 @@
+.contacts{
+    min-height: 1080px;
+}
+
+/*----- TELL ABOUT ------*/
+
+
+.tell-about {
+    min-height: 72px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #d8d8d8;
+    box-sizing: border-box;
+}
+
+.tell-about__container {
+    min-height: 72px;
+    margin: 0 auto;
+}
+
+.tell-about__centred-block {
+    justify-content: center;
+    align-items: center;
+    min-height: 40px;
+    max-width: 845px;
+    margin: auto;
+}
+
+.tell-about__icon {
+    background: url("../../img/icons/social-sprites.png") -51px 0 no-repeat;
+    width: 22px;
+    height: 25px;
+}
+
+.tell-about__title_container{
+    min-width: 180px;
+    padding-left: 15px;
+}
+
+.tell-about__title_font{
+    color: #aeaeae;
+}
+
+.tell-about__social_wrapper{
+    min-width: 200px;
+}
+
+.tell-about__social_list {
+    display: flex;
+    align-items: center;
+}
+
+.tell-about__social_counter{
+    width: 55px;
+    padding-left: 5px;
+    font-size: 12px;
+}
+
+.tell-about__social_list > .social__twitter-bg_tell-about {
+    background-color: #34c5f0;
+}
+
+.tell-about__social_list > .social__ln-bg_tell-about {
+    background-color: #127cb4;
+}
+
+.tell-about__social_list > .social__fbook-bg_tell-about {
+    background-color: #336297;
+}
+
+.tell-about__social_list > .social__google-bg_tell-about {
+    background-color: #e74237;
+}
+
+.tell-about__social_list > .social__pinterest-bg_tell-about {
+    background-color: #b71c29;
+}
+
+/* ------ CONTACT FORM ---------*/
+
+.contact__form-container {
+    max-width: 540px;
+    min-height: 375px;
+    padding-bottom: 40px;
+}
+
+.contact__form-box_setting {
+    font-size: 12px;
+    height: 40px;
+    width: 100%;
+    vertical-align: middle;
+    border: none;
+    border-bottom: 3px solid #d8d8d8;
+    background: transparent;
+    margin: 10px auto;
+    outline: 0;
+}
+
+.contact__form-box_setting:hover {
+    border-bottom: 3px solid #bb5712;
+
+}
+
+.contact__form-box_setting:focus {
+    border-bottom: 3px solid #bb5712;
+}
+
+
+.contact__form-subject_setting{
+    margin-bottom: 50px;
+}
+.contact__form-message_setting {
+    height: 60px;
+    vertical-align: bottom;
+}
+
+/*-------CONTACT ADDRESS--------*/
+
+.contact__details {
+    min-height: 420px;
+}
+
+.contacts_map {
+    border: 0;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.contact__details_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 345px;
+    min-width: 540px;
+    top: 50px;
+    left: 280px;
+    padding: 50px 35px;
+    background-color: #fff;
+}
+
+.contact__details_font {
+    font-size: 11px;
+}
+
+.contact__details_item-box {
+    height: 40px;
+    width: 100%;
+
+}
+
+.contact__details_item-box:hover{
+    background-color: rgba(174,174,174,0.2);
+}
+
+.contact__details_icon-box {
+    display: inline-block;
+    vertical-align: middle;
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
+    margin-right: 10px;
+}
+
+.contact__details_post {
+    background: url("../../img/icons/social-sprites.png") -242px -38px no-repeat #aeaeae;
+}
+
+.contact__details_address {
+    background: url("../../img/icons/social-sprites.png") -190px -44px no-repeat #aeaeae;
+}
+
+.contact__details_phone {
+    background: url("../../img/icons/social-sprites.png") -143px -42px no-repeat #aeaeae;
+}
+
+.contact__details_mail {
+    background: url("../../img/icons/social-sprites.png") -42px -42px no-repeat #aeaeae;
+}
+
+.contact__details_web {
+    background: url("../../img/icons/social-sprites.png") -92px -42px no-repeat #aeaeae;
+}
+
+.contact__details_place-marker {
+    top: 170px;
+    left: 1020px;
+    width: 48px;
+    height: 64px;
+    background: url("../../img/icons/sprites.png") -122px -178px no-repeat;
+}
+
+.contact__details_item-box:hover .social__bg_hover{
+    background-color: #b88b58;
+}

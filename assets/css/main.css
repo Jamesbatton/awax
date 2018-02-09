@@ -1,0 +1,218 @@
+@import url(components/header.css);
+@import url(components/about_us.css);
+@import url(components/services.css);
+@import url(components/projects.css);
+@import url(components/team.css);
+@import url(components/reviews.css);
+@import url(components/prices.css);
+@import url(components/facts.css);
+@import url(components/contacts.css);
+@import url(components/footer.css);
+@import url(responsive.css);
+
+
+/* ---- FONTS ---- */
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,700i');
+
+
+/* ---- GLOBAL STYLES ---- */
+
+.base {
+    background-color: #f7f7f7;
+    color: #656565;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+*:hover {
+    transition: .5s;
+}
+
+.sections-title {
+    height: 140px;
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+
+
+/*------ DISPLAY FLEX ------*/
+
+
+.dsp__flx_row {
+    display: flex;
+}
+
+.dsp__flx_colmn {
+    display: flex;
+    flex-direction: column;
+}
+
+.dsp__flx_wr {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dsp__bl {
+    display: block;
+}
+
+
+/*-------- HELP ICONS ------*/
+
+
+.help__icon_size {
+    width: 64px;
+    height: 64px;
+    border-radius: 64px;
+    cursor: pointer;
+}
+
+
+/*---------- FONTS -------*/
+
+
+.font__color_main {
+    color: #b88b58;
+}
+
+.font__color_main-dubl {
+    color: #ffffff;
+}
+
+.font__color_main-dubl-invers {
+    color: #000000;
+}
+
+.font__weight_bold {
+    font-weight: 800;
+}
+
+.font__sections-title_main {
+    font-size: 25px;
+    font-weight: 800;
+    color: #000000;
+}
+.font__sections-title-dubl_main {
+    font-size: 15px;
+    font-weight: 800;
+    color: #aeaeae;
+}
+
+.font__sections-title_main-invers {
+    font-size: 25px;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+
+/* ---------- BUTTONS -----------*/
+
+.btn__main {
+    font-size: 13px;
+    font-weight: 800;
+    color: #fff;
+    border-radius: 30px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+.btn__main_stand {
+    border: 3px solid #b88b58;
+    background-color: #b88b58;
+    padding: 10px 40px;
+    outline: 0;
+}
+
+.btn__main_stand:focus,
+.btn__main_stand:hover {
+    background-color: transparent;
+    border: 3px solid #df7002;
+    color: #6e877e;
+    transition: .4s;
+}
+
+.btn-stand_margin-top {
+    margin-top: 45px;
+}
+
+
+/*------- CAROUSEL INDICATORS-COLOR CHANGE -------*/
+
+
+.carousel-indicators > .checkbox__border-color {
+    border-color:#b88b58;
+}
+
+.carousel-indicators .active {
+    background-color: #b88b58!important;
+}
+
+
+/*------- POSITIONS --------*/
+
+
+.psn__rel {
+    position: relative;
+}
+
+.psn__abs {
+    position: absolute;
+
+}
+
+
+/*----------- SOCIAL ICONS  ----------*/
+
+
+.social__size {
+    width: 32px;
+    height: 32px;
+    border-radius: 16px;
+}
+
+.social__twitter {
+    background: url("../img/icons/social-sprites.png") -92px 10px no-repeat;
+}
+
+.social__ingram {
+    background: url("../img/icons/social-sprites.png") -190px 10px no-repeat;
+}
+
+.social__ln {
+    background: url("../img/icons/social-sprites.png") -140px 9px no-repeat;
+}
+
+.social__fbook {
+    background: url("../img/icons/social-sprites.png") -288px -41px no-repeat;
+}
+
+.social__google {
+    background: url("../img/icons/social-sprites.png") -292px 10px no-repeat;
+}
+
+.social__pinterest {
+    background: url("../img/icons/social-sprites.png") 9px -41px no-repeat;
+}
+
+.social__ytube {
+    background: url("../img/icons/social-sprites.png") -240px 10px no-repeat;
+}
+
+.social__other {
+    background: url("../img/icons/social-sprites.png") -326px 14px no-repeat;
+}
+
+.social__bg_hover:hover {
+    background-color: #b88b58;
+}
+
+
+
+
+

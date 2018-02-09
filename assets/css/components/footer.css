@@ -1,0 +1,83 @@
+.section-footer{
+    min-height: 265px;
+    background-color: #000000;
+    box-sizing: border-box;
+    padding: 30px 0;
+}
+
+
+/*---ICON scrollUp SETTING-----*/
+
+
+.help__icon_scrollUp-bg{
+    background-color: #b88b58;
+    top: -60px;
+    left: -20px;
+}
+
+.help__icon_scrollUp-bg:hover {
+    background: linear-gradient(45deg, #ffad2d,#bb5712);
+    box-shadow: 0 1px 20px rgb(123, 123, 123);
+}
+
+.help__icon_scrollUp{
+    width: 34px;
+    height: 20px;
+    top: 20px;
+    left: 16px;
+}
+
+/*-------FOOTER SOCIAL-------*/
+
+
+.footer__social_wrapper {
+    max-width: 270px;
+    margin-bottom: 30px;
+}
+
+.footer__social {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.footer__logo_wrapper {
+    width: 120px;
+    margin-left: 40px;
+}
+
+.footer__social > .social__bg_footer {
+    background-color: #373737;
+}
+
+.footer__content {
+    font-size: 12px;
+}
+
+
+/*-------SUBSCRIBE---------*/
+
+
+.footer__subscr_wrapper {
+    justify-content: center;
+    align-items: center;
+    max-width: 350px;
+    height: 195px;
+    background-color: #373737;
+}
+
+.footer__form-subscribe_email {
+    border: none;
+    border-bottom: 2px solid #aeaeae;
+    background: transparent;
+    text-align: center;
+    width: 220px;
+    padding-bottom: 5px;
+    margin-bottom: 25px;
+    outline: 0;
+}
+
+.footer__form-subscribe_email:hover,
+.footer__form-subscribe_email:focus{
+    border-bottom: 2px solid #b88b58;
+}
